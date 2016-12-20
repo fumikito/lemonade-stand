@@ -1,242 +1,242 @@
-# A handy guide to financial support for open source.
-*"I do open source work, how do I find funding?"*
+# オープンソースのための金銭的支援についてのガイドブック
+*"オープンソースの仕事はしているけれど、どうやって資金を捻出したらいいんだろう？"*
 
-Below I've listed every way I know of that people get paid for open source work, roughly ordered from small to large. Each funding category links to several real examples. (Wherever possible, I've tried to link to a useful article or page instead of just a homepage.)
+オープンオープンソースに対する仕事で報酬を得るための方法すべてを、私が知る限り列挙します。だいたい金額の小さい方から大きい方に並んでいます。それぞれのファンディングカテゴリーはいくつかの実例にリンクしています。（もし可能なら、ホームページではなく有用な記事やページにリンクしています）
 
-The categories are not mutually exclusive. For example, a project might have a foundation but also use crowdfunding to raise money. Someone else might do consulting and also have a donation button. Etc. The purpose of this guide is to provide an exhaustive list of all the ways you can get paid, so that you can figure out what works best for you.
+カテゴリーは排他的ではありません。たとえば、あるプロジェクトは基金モデルを採用しながら、お金をもっと集めるためにクラウドファンディングも利用しているかもしれません。他の人はコンサルティングをしながら寄付ボタンを使っているかもしれません。このガイドの目的は報酬を得る方法の完全なリストを提供することであり、そうすればあなたにとって一番いいものを見つけることができるでしょう。
 
 
 ---
 
 
-# Table of Contents
-1. [Donation button](#donation-button)
-2. [Bounties](#bounties)
-3. [Crowdfunding (one-time)](#crowdfunding-one-time)
-4. [Crowdfunding (recurring)](#crowdfunding-recurring)
-5. [Books and merchandise](#books-and-merchandise)
-6. [Advertising & sponsorships](#advertising--sponsorships)
-7. [Get hired by a company to work on project](#get-hired-by-a-company-to-work-on-project)
-8. [Start a project while currently employed](#start-a-project-while-currently-employed)
-9. [Grants](#grants)
-10. [Consulting & services](#consulting--services)
+# 目次
+1. [寄付ボタン](#donation-button)
+2. [助成金](#bounties)
+3. [クラウドファンディング (売り切り)](#crowdfunding-one-time)
+4. [クラウドファンディング (定期課金)](#crowdfunding-recurring)
+5. [書籍とグッズ](#books-and-merchandise)
+6. [広告とスポンサー](#advertising--sponsorships)
+7. [プロジェクトの仕事をするために企業に雇われる](#get-hired-by-a-company-to-work-on-project)
+8. [現在雇われている企業でプロジェクトを開始する](#start-a-project-while-currently-employed)
+9. [助成金](#grants)
+10. [コンサルティングとサービス](#consulting--services)
 11. [SaaS](#saas)
-12. [Freemium license](#freemium-license)
-13. [Dual license](#dual-license)
-14. [Open core](#open-core)
-15. [Foundations & consortiums](#foundations--consortiums)
-16. [Venture capital](#venture-capital)
+12. [フリーミアムライセンス](#freemium-license)
+13. [デュアルライセンス](#dual-license)
+14. [オープンコア](#open-core)
+15. [基金とコンソーシアム](#foundations--consortiums)
+16. [ベンチャーキャピタル](#venture-capital)
 
-APPENDIX: [Contributing to this guide](#contributing-to-this-guide) // [License & attribution](#license-and-attribution)  
-TRANSLATIONS: [Traditional Chinese(繁體中文)](https://github.com/jserv/lemonade-stand) // [Simplified Chinese(簡體中文)](https://github.com/wizicer/FinancialSupportForOpenSource) // [Italian(italiano)](https://github.com/dakk/lemonade-stand)
+補遺: [このガイドへの貢献](#contributing-to-this-guide) // [ライセンスと帰属](#license-and-attribution)  
+翻訳: [原文（英語）](https://github.com/nayafia/lemonade-stand) // [繁體中文](https://github.com/jserv/lemonade-stand) // [簡體中文](https://github.com/wizicer/FinancialSupportForOpenSource) // [イタリア語](https://github.com/dakk/lemonade-stand)
 
-**"personal effort" notes when a funding effort was led by an individual, not a project*
+**"個人的な努力" という但し書きは資金獲得の努力がプロジェクトではなく個人によってなされていることを意味します**
 
-## Donation button
-*Stick a donation button on your site. Stripe and PayPal are examples of services you can use to accept donations.*
+## 寄付ボタン
+*サイトに寄付ボタンをつける。StripeとPayPalは寄付を受け付けるためのサービスとしての代表例。*
 
-#### Pros
-* Few strings attached
-* Little work involved: "set it and forget it"
+#### 良い点
+* 制約があまりない
+* やるべきことの少なさ： "設定したら忘れろ"
 
-####Cons
-* Usually not much money unless you have dedicated fundraising efforts
-* Need an entity to accept donations, which may take a fee for doing so.  Examples are Stripe and PayPal.
-* To make donations tax-free for the person/organization who is donating, may need a legally charitable entity (in the United States, a 501(c)(3) nonprofit entity) to accept donations. [SFC](http://sfconservancy.org), [OpenCollective](http://opencollective.com), and [NumFOCUS](http://www.numfocus.org) are examples. Harder for individuals or international donations to manage
-* Sometimes not clear who “deserves” money in a project or how it gets distributed. An entity like [OpenCollective](http://opencollective.com) may help with this.
+#### 悪い点
+* よほど熱心にやらないかぎりは十分な金額を得られない。
+* 寄付を受け付けるための実体が必要で、それは手数料を取る。たとえばStripeやPayPal。
+* 寄付をした人や組織が免税されるには、法的に寄付を受け付けている実体（合衆国では502(c)(3)非営利団体）でなければならない。[SFC](http://sfconservancy.org), [OpenCollective](http://opencollective.com)と[NumFOCUS](http://www.numfocus.org)がその例。個人や国際的な寄付だともっと難しい。
+* 往々にしてプロジェクトの誰がその金額に「値する」のかがわかりづらく、分配も不明瞭。[OpenCollective](http://opencollective.com)のような法人が役立つかもしれない。
 
-####Case Studies
+#### ケーススタディ
 * [Twisted](https://twistedmatrix.com/trac/wiki/WhyDonate)
 * [Git](https://git-scm.com/sfc)
 * [Transmission](https://www.transmissionbt.com/)
 
-##Bounties
-*Sometimes, projects or companies post bounties for open source work (ex. "fix this bug and collect $100"). There are several websites, listed below, that help facilitate the posting and collection of bounties.*
+## 賞金
+*ときどきプロジェクトや企業がオープンソースワークに報奨金を投じる（例： "このバグを直して$100を受け取ろう"）。以下にあげるリストに報奨金の授受を簡単にするWebサイトを紹介している。*
 
-####Pros
-* Open to community participation
-* Money is tied to doing specific work (more like paying for service than donations)
-* Especially popular for security work
+#### 良い点
+* コミュニティの参加者に開かれている
+* お金が特定の仕事に紐づけられている（サービスへの支払いや寄付よりも）
+* セキュリティ関連で特に人気
 
-####Cons
-* Can create perverse incentives in a project (low quality PRs, distracting priorities)
-* Usually not much money per bounty (~<$500)
-* Doesn’t provide recurring revenue
+#### 悪い点
+* プロジェクトに捻じ曲がったインセンティブをもたらす（質の低いPR、優先順位の混乱）
+* 報奨金はそれほど高い金額にならない（$500以下）
+* 継続的な報酬をもたらさない
 
-####Case Studies
+#### ケーススタディ
 * [Bountysource](http://bountysource.com)
 * [Internet Bug Bounty](https://internetbugbounty.org/)
 * [Google Patch Rewards](https://static.googleusercontent.com/about/appsecurity/patch-rewards/index.html)
 * [GitHub Bug Bounty Program](https://bounty.github.com/)
 
-##Crowdfunding (one-time)
-*If you have a specific idea you'd like to implement (rather than ongoing project work), a one-time crowdfunding campaign can help raise the funds you need. Both individuals and companies might be willing to donate to your campaign.*
+## クラウドファンディング（売り切り）
+*目下進行中のプロジェクトにではなく、実装したい特定のアイデアがあるなら、売り切りのクラウドファンディングは必要な資金を集めるのに適している。個人および企業があなたのキャンペーンに寄付したいと思うかもしれない。*
 
-####Pros
-* Few strings attached
-* Can be easier for an individual to legally manage via, ex. [Kickstarter](https://kickstarter.com/)
+#### 良い点
+* 制約があまりない
+* たとえば[Kickstarter](https://kickstarter.com/)などを使えば、個人が法的にお金を集めるのが簡単。
 
-####Cons
-* Lots of work involved to market campaign
-* Usually has to be tied to concrete outcome, perks
-* Usually not that much money (~$50K for one time)
-* Companies not always comfortable donating to campaigns
+#### 悪い点
+* マーケットでキャンペーンを打つのにやるべきことがたくさんある。
+* 通常、支出や経費に紐づけられるU。
+* 通常はそこまで高い金額ではない（一回あたり$50,000以下）。
+* 企業がキャンペーンに寄付することを常に好むわけではない。
 
-####Case Studies
+#### ケーススタディ
 * [Dave Gandy + Font Awesome](https://www.kickstarter.com/projects/232193852/font-awesome-5)
 * [Michal Papis + Rvm (personal effort)](https://www.bountysource.com/teams/rvm/fundraiser)
 * [Andrew Godwin + Django (personal effort)](https://www.kickstarter.com/projects/andrewgodwin/schema-migrations-for-django)
 * [ribasushi + CPAN (personal effort)](https://www.tilt.com/tilts/year-of-ribasushi-help-him-focus-on-cpan-for-2016)
 * [RESTful WP-CLI](https://poststatus.com/kickstarter-open-source-project/)
 
-##Crowdfunding (recurring)
-*If you'd like to fund ongoing project work, you can set up a recurring crowdfunding campaign, with a monthly or annual financial commitment that renews indefinitely (or until the donor cancels). Those who use your project regularly (including both individuals and companies) might be willing to fund your work.*
+## クラウドファンティング（定期課金）
+*もし目下進行中のプロジェクトに資金が必要なら、定期課金のクラウドファンディングキャンペーンを設定することができる。毎月または毎年の資金が確約され、ユーザーが解除しない限りはずっと続く。あなたのプロジェクトを何度も使っている人（個人および法人）が資金提供に応じるかもしれない。*
 
-####Pros
-* Few strings attached
-* Can be easier for an individual to legally manage via, ex. [Patreon](https://patreon.com), [Salt](https://salt.bountysource.com/), [Gratipay](https://gratipay.com/), [OpenCollective](https://opencollective.com)
+#### 良い点
+* 制約があまりない
+* たとえば[Patreon](https://patreon.com), [Salt](https://salt.bountysource.com/), [Gratipay](https://gratipay.com/), [OpenCollective](https://opencollective.com)などを使えば、個人が法的にお金を集めるのが簡単。
 
-####Cons
-* Harder to get commitments to recurring donations (often requires preexisting brand/reputation)
-* Harder to explain concrete outcomes, perks that come with recurring donations
-* Usually not that much money (~$1-4K monthly)
-* Companies not always comfortable donating to campaigns
+#### 悪い点
+* 継続的な寄付に対してのコミットを提供するのが困難（以前から有名なブランドや評判が高い必要がある）
+* 定期的な寄付に対して、具体的な支出や経費の具体的な使途を説明するのが困難。
+* 通常、それほど高い金額ではない（毎月$1,000-$4,000）
+* 企業がキャンペーンに寄付することを常に好むわけではない。
 
-####Case Studies
+#### ケーススタディ
 * [MochaJS](https://opencollective.com/mochajs)
 * [React-boilerplate](https://opencollective.com/react-boilerplate)
 * [jsbin](https://gratipay.com/jsbin/)
 * [Tom Christie + Django REST framework (personal effort)](https://fund.django-rest-framework.org/topics/funding/)
 * [Ruby Together](https://rubytogether.org)
 
-##Books and merchandise
-*If you are an expert in a domain that other people might find useful to learn about, you could write and sell a book or series of books. You can find a publisher (like O'Reilly) or self-publish. In addition to selling books, some projects sell merchandise (ex. shirts, hoodies) to support their work.*
+## 書籍とグッズ
+*もしあなたが他の人が学びたいと思うような特定領域の専門家であれば、書籍を執筆して売ることができる。O'Reillyのような出版社を見つけるか、自己出版するか。本を売るのに加え、いくつかのプロジェクトは仕事の足しにグッズ（シャツやパーカ）を売っている。*
 
-####Pros
-* Outcome not tied to project work itself, so you retain creative freedom
-* Can serve as marketing for the project itself
-* Can be recurring source of revenue after initial development
+#### 良い点
+* 支出はプロジェクトには紐づかないため、創作の自由は保たれる。
+* プロジェクト自体のマーケティングに使える。
+* 初期の開発ののちも繰り返し使える収益源となる。
 
-####Cons
-* Often not a significant source of revenue
-* Can distract from core development of project
-* Merchandise can have upfront costs
+#### 悪い点
+* 多くの場合、それほど大きな収益をもたらさない。
+* プロジェクトのコアとなる開発の妨げになる。
+* グッズに経費がかかる
 
-####Case Studies
+#### ケーススタディ
 * [Lua](https://www.lua.org/pil/)
 * [Daniel and Audrey Roy Greenfeld + Two Scoops of Django (personal effort)](https://www.twoscoopspress.com/products/two-scoops-of-django-1-8)
 * [Sandi Metz + Practical Object-Oriented Design in Ruby (personal effort)](http://www.poodr.com/)
 * [Kyle Simpson + You Don't Know JS (personal effort)](https://github.com/getify/You-Dont-Know-JS)
 * [CocoaPods (fundraising for charity)](https://cocoapods.org/socks)
 
-##Advertising & sponsorships
-*If your project has a large audience, you can sell sponsorships to advertisers who might want to reach them. You probably have a very targeted audience (ex. if you have a Python project, you can assume your audience is likely people who are technically familiar with Python), so use that to your advantage.*
+## 広告とスポンサー
+*あなたのプロジェクトに注目する人が多くいるなら、その人たちにリーチしたい広告主にスポンサーシップを売ることができる。おそらくは限られたターゲットの人たち（例： あなたがPyhonのプロジェクトを持っているなら、その人たちはPythonに技術的に詳しい人だと仮定できます）なので、それをアドバンテージとすることができる。*
 
-####Pros
-* Business model aligned with something people are willing to pay for
+#### 良い点
+* 人々がお金を払ってもいいと思えるビジネスモデルに沿っている。
 
-####Cons
-* Need large enough audience to justify sponsorships
-* Need to manage trust and transparency with user base (ex. no tracking)
-* Can be a lot of work to find and manage clients
+#### 悪い点
+* スポンサーシップを正当化するために、注目する人がたくさんいなければならない。
+* ユーザーベースに関する信頼と透明性を必要とする（たとえば、トラッキングしない）。
+* 広告主を見つけて管理するために多大な労力を必要とする。
 
-####Case Studies
+#### ケーススタディ
 * [Read the Docs](http://blog.readthedocs.com/ads-on-read-the-docs/)
 * [Hoodie](http://hood.ie/sponsoring/)
 
-##Get hired by a company to work on project
-*Companies sometimes hire individuals to do open source work. Find a company that uses the project you want to work on. Often this is a split arrangement (ex. 50% company work, 50% open source work). Alternatively, if you have an idea for a new project, find a company that would be interested in using what you produce. In these situations, having demonstrated experience you can point to will be very helpful.*
+## プロジェクトの仕事をするために企業に雇われる
+*企業はときどきオープンソースの仕事をさせるために人を雇う。あなたがやりたいプロジェクトを利用している企業を見つけよう。分配されることもよくある（例： 50%が会社の仕事、50%がオープンソースの仕事）。もしくは、新しいプロジェクトのアイデアがある場合、あなたが作るものに興味を持ちそうな企業を見つけよう。この場合、実演できるものがあると役に立つだろう。*
 
-####Pros
-* Taps into those who have resources (i.e. companies)
-* Can be well-aligned with company needs
-* Steady income
+#### 良い点
+* リソースを持つ人（たとえば企業）をあてにできる。
+* 企業のニーズに沿っている。
+* 安定した収入。
 
-####Cons
-* Usually involves “getting lucky”: no clear, repeatable path to finding this arrangement
-* Project already needs to be well-known and used
-* Person not contributing to company’s bottom line, which makes them expendable
-* Governance issues, company could have undue influence over project
-* Can affect project dynamics + balance
+#### 悪い点
+* 普通は“ラッキーであること”が求められる: はっきりした再現性のある手はずは存在しない。
+* プロジェクトはすでに有名でよく使われている必要がある。
+* 企業の求める最低ラインを超えないと首になる。
+* ガバナンスの問題。企業はプロジェクトに必要以上の影響力を発揮することがある。
+* プロジェクトの活発さやバランスに影響を与える。
 
-####Case Studies
+#### ケーススタディ
 * [Donald Stufft + Hewlett-Packard and Python packaging (personal effort)](https://twitter.com/dstufft/status/594119386333609984)
 * [Rich Hickey + Cognitect and Clojure](http://www.bizjournals.com/triangle/news/2013/09/17/durhams-relevance-to-merge-with.html?full=true)
 * [Aaron Patterson + ManageIQ and Ruby, Rails (personal effort)](http://community.redhat.com/blog/2014/09/tenderlove-joins-manageiq/)
 * [Ryan Dahl + Joyent and Node.js (opens a YouTube video) (personal effort)](http://www.youtube.com/watch?v=SAc0vQCC6UQ&t=29m20s)
 
-##Start a project while currently employed
-*Many open source projects started as employee side projects. The project might eventually outgrow the company, but starting it as a side project can be a great way to incubate the idea.*
+## 現在雇われている企業でプロジェクトを開始する
+*多くのオープンソースプロジェクトは被用者のサイドプロジェクトとして始まる。プロジェクトはその企業規模を超えた突然の成長をするかもしれないが、サイドプロジェクトとして始めるのはそのアイデアを試す意味でよい試みだ。*
 
-*If you pursue this path, make sure you understand your company's policy on open source work. Some companies encourage employees to contribute to open source during working hours. Some might treat your open source work as a company project. Don't assume anything; ask someone at your company before starting.*
+*この道を選ぶ場合、あなたは自分の会社のオープンソースポリシーについて理解しておく必要がある。いくつかの企業は従業員が業務時間にオープンソースに貢献することを奨励している。またある企業はあなたの成果を会社のプロジェクトとして扱うだろう。なにごとも思い込むのではなく、始める前に会社の人に尋ねてみよう。
 
-####Pros
-* Freedom to test new ideas without worrying about salary
-* Can be well-aligned with company needs
-* Suitable for newer, experimental ideas
+#### 良い点
+* 給料のことを気にせず新しいアイデアを試す自由がある。
+* 企業のニーズに沿っている場合がある。
+* 新しく実験的なアイデアに向いている。
 
-####Cons
-* Need to do it as a side project or be approved to work on it during salaried time
-* Risk of undue company influence
-* Can lead to complicated governance later down the line
+#### 悪い点
+* サイドプロジェクトとして始めるか、業務時間中にやってよいという承諾を得る必要がある。
+* 意図しない企業の影響がでるリスク。
+* 後になってから複雑な管理上の問題に発展することがある
 
-####Case Studies
+#### ケーススタディ
 * [Mozilla and Rust](https://www.rust-lang.org/faq.html#is-this-project-controlled-by-mozilla)
 * [Google and Go](https://golang.org/doc/faq#history)
 * [Facebook and React](https://www.quora.com/How-was-the-idea-to-develop-React-conceived-and-how-many-people-worked-on-developing-it-and-implementing-it-at-Facebook/answer/Bill-Fisher-17)
 * [Futurice's open source program](http://futurice.com/blog/sponsoring-free-time-open-source-activities)
 
-##Grants
-*Grants are effectively large donations that do not require repayment. Oftentimes the grantmaker receives other benefits from giving you the grant, such as access to you, demonstration of impact, a report of your work, or tax benefits.*
+## 助成金
+*助成金は事実上、返済の義務のない巨額の寄付である。しばしば慈善団体はあなたに助成金を与えることで他のメリットを得る。あなたに近づくことや、インパクトを見せつけたり、あなたの成果について調査したり、節税をしたり。*
 
-*Grants can come from many places, including companies, software foundations, philanthropic foundations, and the government. The technical and legal aspects of a grant vary greatly depending on where it comes from. For example, a company might give you a "grant" but legally treat it as a consulting invoice. A philanthropic foundation can only make grants to nonprofits, so you would need to be a nonprofit yourself, or (more commonly) find a nonprofit to sponsor you. If you're unfamiliar with grants, the best way to understand how grants work is to talk to someone who has received one before. Some examples of grant recipients are listed below.*
+*助成金は様々な場所から来る。企業はもちろんのこと、ソフトウェア財団、慈善団体、そして政府など。助成金の専門的または法的な意味は、それがどこからきたのかによって大きく異なる。たとえば、ある企業があなたに「助成金」を与えても、それをコンサルティング料金と考えているかもしれない。慈善団体は非営利団体にしか寄付できないので、あなたは自らが非営利になるか、（よくある例としては）あなたをサポートしてくれる非営利団体を探さなくてはならない。もしあなたが助成金に詳しくなければ、それがどんな仕組みか理解するのに最良の方法として、それを受け取ったことがある人に話を聞くことだ。助成金を受け取ったことのある例として、下にそのリストを挙げる。*
 
-####Pros
-* Fewer strings attached
-* Guaranteed money can help project focus for an unbroken period of time
-* Gives project room to breathe and experiment
+#### 良い点
+* 制約がほとんどない。
+* 助成金はかなりの間プロジェクトに集中するのを助けてくれる。
+* 一息ついて実験をできるプロジェクトルームを与えてくれる。
 
-####Cons
-* There aren’t many software-related grantmakers (philanthropic, gov’t, corporate)
-* Grants are finite. Still need to find sustainability beyond the life of a grant
+#### 悪い点
+* ソフトウェア関連の支援団体は多くない（慈善団体、政府、企業ともに）
+* 助成金は有限である。助成金を超えてなお続くサステナビリティが必要なのは変わらない。
 
-####Case Studies
+#### ケーススタディ
 * [Dat](https://usopendata.org/)
 * [Andrey Petrov + Stripe Open-Source Retreat and urllib3](https://medium.com/@shazow/urllib3-stripe-and-open-source-grants-edb9c0e46e82#.45ylnxrh4)
 * [Django + Mozilla Open Source Support](https://www.djangoproject.com/weblog/2015/dec/11/django-awarded-moss-grant/)
 
-##Consulting & services
-*Consulting can be a flexible way to fund open source work. You have more freedom to structure your time as you wish (for example, consulting 30 hrs of the week and spending 10 hrs of the week on open source work). Consultants can usually charge more for their time than salaried employees because the work is less steady, they don't receive benefits, etc. If you plan on doing this type of work regularly, you will probably want to set up an LLC (or equivalent outside of the US).*
+## コンサルティングとサービス
+*コンサルティングはオープンソースの資金を捻出するための柔軟な方法だ。自分の思う通りに時間を捻出する自由がある（たとえば、週に30時間コンサルティングをして、10時間をオープンソースに費やす）。コンサルタントの時間給は給料をもらう会社員よりも高い。身分が安定しない、福利厚生がない、などの理由による。もしこの種の労働を定期的にするのであれば、合同会社を設立したくなるかもしれない（米国以外の場合は同等のもの）。*
 
-*If your project is popular, you can also offer consulting & services around the project itself. For example, a client might pay you to implement the project for them, build something custom, or train them on how to use it.*
+*もしあなたのプロジェクトが人気のあるものなら、プロジェクト自体に関わるコンサルティングやサービスを提供できる。たとえば、クライアントはそのプロジェクトを実装することに対してお金を払うかもしれないし、カスタムの何かを構築したり、利用方法を教えることなども同様。*
 
-####Pros
-* Business model aligned with something people are willing to pay for
+#### 良い点
+* 人々がお金を払ってもいいと思えるビジネスモデルに沿っている。
 
-####Cons
-* Consulting requires human power, doesn’t scale well (except for rare outliers)
-* Business needs can distract from writing code or other tasks related to the project itself
-* Can be at odds with making software simple to use
-* Project needs to be sufficiently popular that people are willing to pay for related services
+#### 悪い点
+* コンサルティングはヒューマンパワーを必要とするのでスケールしない（例外的に突出した人を除く）
+* ビジネスニーズはプロジェクトのコードを書くことやそれに類するその他の仕事とはかけ離れたものになることがある。
+* ソフトウェアをシンプルに使えるものにすることとは相性が悪い
+* 人々が関連サービスにお金を払いたいと思う程度にはプロジェクトが有名でなくてはならない。
 
-####Case Studies
+#### ケーススタディ
 * [Neighbourhoodie](https://neighbourhood.ie/)
 * [Baroque Software](http://baroquesoftware.com/)
 * [OpenSSL](http://openssl.com/what.html)
 
-##SaaS
-*SaaS means [Software as a Service](https://en.wikipedia.org/wiki/Software_as_a_service). In this model, the codebase itself is open source, but you might offer additional paid services that make it easier for people to use your project. One common example of a paid service is charging for hosting.*
+## SaaS
+*SaaSとは[Software as a Service](https://en.wikipedia.org/wiki/Software_as_a_service)を意味する。このモデルではコードベースそれ自体はオープンソースだが、プロジェクトを利用するために追加の有料サービスを提供できる。よくある有料の例はホスティングへの課金である。*
 
-####Pros
-* Can build community around open project and make money off of services for hosting
-* Allows open source project to focus on users and as needs grow to help enterprises adopt the project
-* Can scale by number of users
+#### 良い点
+* プロジェクトの周囲にコミュニティを形成し、ホスティングサービスから資金を捻出できる。
+* オープンソースプロジェクトがユーザーにフォーカスすること、そして企業がプロジェクトを受け入れるだけのニーズを育てることを可能にする。
+* ユーザーの数に応じてスケールできる。
 
-####Cons
-* Often means the hosting needs to be cheaper than hiring a dev to run the project for you.
-* “Two tiers” of product support can make free users unhappy
+#### 悪い点
+* ときにホスティングがプロジェクトに必要な人を雇うだけの額に見合わないことがある。
+* 製品の“二段階”サポートは無料のユーザーを不幸にしうる。
 
-####Case Studies
+#### ケーススタディ
 * [WordPress.com](http://wordpress.com/)
 * [Moodle](https://moodle.org/)
 * [Forge Laravel](https://forge.laravel.com/)
@@ -245,91 +245,91 @@ TRANSLATIONS: [Traditional Chinese(繁體中文)](https://github.com/jserv/lemon
 * [Travis CI](https://travis-ci.org/)
 * [Ghost](https://ghost.org/)
 
-##Freemium License
-*"Freemium" licenses are not open source, because they do not meet all the [required freedoms](https://en.wikipedia.org/wiki/The_Open_Source_Definition) of an open source license simultaneously (ex. the source code is not both freely visible AND available to redistribute and modify). Still, they are tangentially related to open source work.*
+## フリーミアムライセンス
+*"フリーミアム"ライセンスはオープンソースではない。というのも、オープンソースライセンスに[要求される自由](https://en.wikipedia.org/wiki/The_Open_Source_Definition)を同時に満たすことができないからだ（例：ソースコードは自由に見ることができ、再配布および修正の自由がある）。それでもオープンソースの仕事には間接的に関わっている。*
 
-*A freemium license restricts some open source freedoms to commercial terms. For example, they might make the source code visible, but require a commercial license to use the code.*
+*フリーミアムライセンスはオープンソースにおけるいくつかの自由を商業的な用語に制限する。たとえば、ソースコードを参照することは可能だが、そのコードを利用するにはコマーシャルライセンスを必要とする。*
 
-####Pros
-* Business model aligned with something people are willing to pay for
-* Potential to scale well if successful
-* Better for end user products
+#### 良い点
+* 人々がお金を払ってもいいと思えるビジネスモデルに沿っている。
+* 成功すればスケールする可能性がある。
+* エンドユーザーの製品に向いている。
 
-####Cons
-* Not actually open source
-* Still a new area of exploration (though related to the [shareware](https://en.wikipedia.org/wiki/Shareware) movement), not well proven
+#### 悪い点
+* 実際にはオープンソースではない。
+* いまだ調査の必要な新領域であり(しかしながら[shareware](https://en.wikipedia.org/wiki/Shareware)運動と関わりがある)、まだよくわかっていない。
 
-####Case Studies
+#### ケーススタディ
 * [Fair Source](https://fair.io/), used by [Sourcegraph](https://sourcegraph.com/)
 * [BSL (Business Source License)](https://mariadb.com/bsl-faq-adopting), used by [MariaDB](https://mariadb.com/)
 
 
-##Dual License
-*Sometimes, projects offer an identical codebase with two different licenses: one that is commercially-friendly, and one that is less so (ex. GPL). The latter is free for anyone to use, but companies pay for the commercial license in order to have legal peace of mind.*
+## デュアルライセンス
+*ときおり、プロジェクトはまったく同じコードベースに二つの異なるライセンスを提供することがある。一つは商売に向いたもので、もう一つはそれほどでもない（例・GPL）。後者は利用者が自由に使えるためものもので、企業は法的な平安を得るために商業ライセンスを購入する。*
 
-####Pros
-* Business model aligned with something people are willing to pay for
-* Can scale well if successful
+#### 良い点
+* 人々がお金を払ってもいいと思えるビジネスモデルに沿っている。
+* 成功すればスケールする。
 
-####Cons
-* Can be at odds with making software freely accessible
-* Project needs to be big enough that customer need exists
+#### 悪い点
+* ソフトウェアに自由にアクセスできるようにすることと相性が悪い。
+* 顧客ニーズが存在しうるだけプロジェクトが大きい必要がある。
 
-####Case Studies
+#### ケーススタディ
 * [MySQL](http://www.mysql.com/about/legal/licensing/oem/)
 * [SQLite](https://www.sqlite.org/copyright.html)
 
-##Open core
-*Under an [open core](https://en.wikipedia.org/wiki/Open_core) model, some aspects of the project are free, but other features are proprietary and available only to paid users. Usually this works when there is enterprise demand for the project.*
+## オープンコア
+*[オープンコア](https://en.wikipedia.org/wiki/Open_core)モデルでは幾つかの面でプロジェクトは自由だが、その他の機能はプロプライエタリであり、購入者だけが利用できる。通常、このモデルはプロジェクトに大企業の需要があるときだけ機能する。*
 
-####Pros
-* Business model aligned with something people are willing to pay for
-* Can scale well if successful
+#### 良い点
+* 人々がお金を払ってもいいと思えるビジネスモデルに沿っている。
+* 成功すればスケールする可能性がある。
 
-####Cons
-* Need to have something you can charge for (which means making certain features exclusive)
-* Can be at odds with making software freely accessible
-* “Two tiers” of product support can make free users unhappy
+#### 悪い点
+* 課金できるものがなくてはならない（これはつまりある機能を排他的にすることを意味する）。
+* ソフトウェアに自由にアクセスできるようにすることと相性が悪い。
+* 製品の“二段階”サポートは無料のユーザーを不幸にしうる。
 
-####Case Studies
+#### ケーススタディ
 * [Docker](https://www.docker.com/)
 * [Elastic](https://www.elastic.co/)
 * [Mesosphere](https://mesosphere.com/)
 * [Phusion Passenger](https://www.phusionpassenger.com/)
 * [Sidekiq](http://sidekiq.org/)
 
-##Foundations & consortiums
-*A [foundation](https://en.wikipedia.org/wiki/Foundation_(nonprofit)) is a legal entity that can accept and/or disburse donations. Because their purpose is not to make profits, they can be a great choice to signal neutrality and steward a project. In the US, foundations are either 501(c)(3) (nonprofit) or 501(c)(6) (trade consortium). Many software foundations are 501(c)(6) because 501(c)(3) require demonstrating a charitable purpose, which can be more difficult in software.*
+## 基金とコンソーシアム
+*[基金](https://en.wikipedia.org/wiki/Foundation_(nonprofit))とは寄付の受け入れおよび支払いが可能な法人である。なぜなら、その目的は利益を生むことではなく、素晴らしく中立にプロジェクトを管理することにある。合衆国においては501(c)(3) (nonprofit) または 501(c)(6) (trade consortium)である。多くのソフトウェア基金は501(c)(6)である。というのも、501(c)(3)はチャリティ目的を掲げる必要があり、それはソフトウェアにとってしばしば困難なことだからだ。*
 
-####Pros
-* Neutrality. Foundation protects the code and helps steward community
-* Influence distributed across multiple donors
-* Can legitimize project, companies might feel more comfortable giving to foundations than individuals
+#### 良い点
+* 中立である。基金はコードを守り、コミュニティを管理できる。
+* 複数の寄進者に影響力が分散する。
+* プロジェクトを合法的なものにすることで、個人よりも基金に資金を提供したいと思う企業を安心させられる。
 
-####Cons
-* Only really worth it for big projects
-* Difficult to set up for IRS reasons (many do 501(c)(6) instead of 501(c)(3)), restrictions on what you can do
-* Requires serious community effort and diverse skills (you still need to fundraise after setting up the entity!)
+#### 悪い点
+* 大きなプロジェクトにだけ意味がある。
+* 歳入庁の要請により(501(c)(3)の代わりに多くが501(c)(6)を選ぶ)、できることには制限がある
+* コミュニティの真摯な努力と様々なスキルを要求する（法人立ち上げのあとも資金集めが必要になる！）
 
-####Case Studies
+#### ケーススタディ
 * [Ruby Together](http://rubytogether.org/)
 * [Python Software Foundation](https://www.python.org/psf/)
 * [Node.js Foundation](https://www.sitepoint.com/goodbye-joyent-hello-node-js-foundation/)
 
-##Venture capital
-*Venture capital is a form of funding for high growth businesses. Unlike a bank loan or other forms of debt financing, venture capitaists take equity (a percent ownership in your business) in exchange for funding. The tradeoff is that unlike taking out a loan, you don't have to repay your creditors if your business tanks. If you do succeed, however, you should expect to return capital to your investor at a multiple.*
+## ベンチャーキャピタル
+*ベンチャーキヤピタルは大きな成長が見込めるビジネスにおける資金集めの一形態である。銀行ローンやその他の融資とは異なり、ベンチャーキャピタルは資金提供の見返りとして企業資産（あなたのビジネスにおける所有権）を要求する。トレードオフとなるのは、ローンを組む場合と異なり、ビジネスが失敗した場合でも債権者にお金を返す必要はない。しかしながら、もし成功したら、出資者に数倍の資産を返すことになる。*
 
-*Venture capital is "high risk high reward": VCs are more risk tolerant than, say, a bank, but they also expect a large payoff if you are successful. If you plan on raising venture capital, you should set up a business entity structured as a C Corp, preferably Delaware. If you're unfamiliar with the venture capital process, the best place to start is by reaching out to similar founders who have successfully raised venture.*
+*ベンチャーキャピタルは「ハイリスク・ハイリターン」である。VCは、そう、たとえば銀行よりもはるかにリスクに寛容だが、成功したときの見返りに多大な期待を寄せている。ベンチャーキャピタルをあてにするのならば、株式会社を設立しなければならないし、できればデラウェア州でなければならない。ベンチャーキャピタルのプロセスに詳しくないなら、ベンチャー立ち上げに成功した起業家に接触することからはじめるのがよいだろう。*
 
-####Pros
-* Institutional support can be helpful for growing a business
-* Large amounts of capital available
+#### 良い点
+* 組織的なサポートはビジネスの成長を助けるだろう。
+* 非常に多くの資本を使うことができる。
 
-####Cons
-* Venture capital comes with expectations of an exit (i.e. returning the money to investors at a multiple). History suggests this is structurally difficult to achieve for open source businesses
-* Venture capital can change motivations and distract from priorities
+#### 悪い点
+* ベンチャーキャピタルはイグジット（たとえば投資が何倍にも返ってくること）を期待している。歴史が示すところによると、オープンソースビジネスにおいてこれは構造的に困難である。
+* ベンチャーキャピタルは動機を変更することがあり、優先度に影響する。
 
-####Case Studies
+#### ケーススタディ
 * [Npm](http://blog.npmjs.org/post/76320673650/funding)
 * [Confluent](http://www.confluent.io/blog/confluent-raises-a-series-b-funding)
 * [NodeSource](https://techcrunch.com/2015/02/09/nodesource-raises-3-million-to-build-new-programming-tools/)
@@ -337,10 +337,10 @@ TRANSLATIONS: [Traditional Chinese(繁體中文)](https://github.com/jserv/lemon
 
 ---
 
-### Contributing to this guide
-I wrote up this guide to aggregate knowledge off the top of my head, but I'm not planning to make major contributions or changes. I recognize the pros/cons are somewhat subjective, but they reflect my views.
+### このガイドへの貢献
+私は自分の知識を頭の中から出して整理するためにこのガイドを書きましたが、大きな変更や執筆を行う予定はありません。良い点・悪い点がいくらか主観的であることはわかっていますが、私の考えを反映したものであはります。
 
-If something is factually incorrect (especially with a case study example), I welcome your edits. Also, if there's a category you know of that I missed, I would also welcome that addition.
+なにかが事実と異なっている（とくにケーススタディの例）場合は、編集してください。もちろん、私が見通していたカテゴリーがあるなら、喜んで追加します。
 
-### License and attribution
-This guide is available under the Creative Commons CC0 1.0 License, meaning you are free to use it for any purpose, commercial or non-commercial, without any attribution back to me (public domain). If you do use it, I'd love to hear about it! (Find me here: [@nayafia](http://twitter.com/nayafia)) But you are in no way required to do so.
+### ライセンスと帰属
+このガイドはクリエイティブコモンズ CC0 において利用できます。つまり、あなたはいかなる理由においてもこの文書を利用でき、商用・非商用を問いませんし、クレジットも必要ありません（パブリックドメイン）。もし使ったら、教えてくれると嬉しいです！（私のアカウント： [@nayafia](http://twitter.com/nayafia)）でも、そうしなければいけないというわけでもありません。
