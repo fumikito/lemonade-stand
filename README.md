@@ -27,7 +27,7 @@
 15. [基金とコンソーシアム](#基金とコンソーシアム)
 16. [ベンチャーキャピタル](#ベンチャーキャピタル)
 
-補遺: [このガイドへの貢献](#contributing-to-this-guide) // [ライセンスと帰属](#license-and-attribution)  
+補遺: [このガイドへの貢献](#このガイドへの貢献) // [ライセンスと帰属](#ライセンスと帰属)  
 翻訳: [原文（英語）](https://github.com/nayafia/lemonade-stand) // [繁體中文](https://github.com/jserv/lemonade-stand) // [簡體中文](https://github.com/wizicer/FinancialSupportForOpenSource) // [イタリア語](https://github.com/dakk/lemonade-stand)
 
 **"個人的な努力" という但し書きは資金獲得の努力がプロジェクトではなく個人によってなされていることを意味します**
